@@ -1,0 +1,40 @@
+*{
+    background-image: url(1144293.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text h4
+{
+  position: absolute;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 500px;
+  font-size: 2em;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  line-height: 1em;
+  /* background-image: url("1144293.jpg"); */
+  /* text-transform: uppercase; */
+}
+/* .text h3{s */
+button
+{
+    position: absolute;
+  transition-duration: 0.4s;
+  margin-top: 549px;
+  margin-left: 93px;
+  border-radius: 15px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+button :hover
+{
+  letter-spacing: 6px;
+  background-color: #4CAF50; /* Green */
+    color: white;
+}

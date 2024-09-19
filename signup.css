@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.contain {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+form {
+    color: rgb(15, 14, 14);
+    border: 5px solid #f1f1f1;
+    padding: 50px 50px;
+    margin-top: 50px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 70%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 18;
+    color: rgb(255, 254, 254);
+}
+
+
+
+.formcontainer {
+    text-align: center;
+    margin: 24px 50px 12px;
+}
+
+.container {
+    padding: 16px 0;
+    text-align: left;
+}
+
+button
+{
+  display: inline-block;
+  /* margin-left: 850px; */
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 13px;
+  background: #3c3b3b;;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: rgb(1, 1, 1);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+button :hover
+{
+  letter-spacing: 6px;
+}
